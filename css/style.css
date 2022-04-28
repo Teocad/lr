@@ -55,7 +55,125 @@ a.button {
    font-size: 16px;
    font-weight: 700;
  line-height: 20px;
+ text-decoration: none;
  }
+
+ .what_is_arcarta {
+    text-decoration: none;
+    color: #C47344;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+ }
+
+ .box_h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+ }
+ .box_text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+ }
+ .box_button {
+   border: 2px solid #E1DED9; 
+   background-color: transparent;
+   width: 152px;
+   height: 48px;
+   text-align: center;
+   border-radius: 50px;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 20px;
+   text-decoration: none;
+   color: black;
+ }
+.quiz_wrapper {
+   color:#FFFFFF;
+  
+}
+.nullone {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+}
+.quiz_text {
+   font-size: 28px;
+   font-weight: 700;
+   line-height: 32px;
+}
+.Begin
+{
+   text-decoration: none;
+   color:white;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+}
+.quiz_h2{
+   color:var(--color_text);
+   font-size:53px;
+   font-weight: 700;
+   line-height: 62px;
+}
+.quiz_text2 {
+   color:var(--color_text);
+   font-size:21px;
+   font-weight: 500;
+   line-height: 33px;
+}
+.quiz {
+   background-color: #32686F;
+}
+
+.art_world_h2{
+   font-weight: 700;
+   font-size:40px;
+   line-height: 54px;
+}
+.art_world_text {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 32px;
+}
+.footer_text{
+   font-weight: 400;
+   font-size:13px;
+   line-height: 20px;
+}
+.footer_h3 {
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 20px;
+}
+.footer_h3_2 {
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 20px;
+}
+.footer_text2 {
+   color:#D3D3D3;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 20px;
+}
+h4 {
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 20px;
+}
+.footer_h4{
+text-decoration: none;
+color:var(--links_color);
+}
+.footer_info > a{
+   text-decoration: none;
+   color: var(--links_color);
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 20px;
+}
 .header{
    display: flex;
    align-items: center;
