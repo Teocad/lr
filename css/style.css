@@ -1,4 +1,6 @@
-
+* {
+   box-sizing: border-box;
+}
 :root{
    --color_text: #322F2E;
    --links_color: #333333;
@@ -21,7 +23,9 @@ body{
    line-height: 20px;
    
 }
-   
+   .nav > li {
+      padding: 0 15px ;
+   }
 
 li > a{
    text-decoration: none;
@@ -75,6 +79,7 @@ a.button {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    text-align: center;
  }
  .box_button {
    border: 2px solid #E1DED9; 
@@ -86,12 +91,26 @@ a.button {
    font-weight: 700;
    font-size: 15px;
    line-height: 20px;
+   padding: 10px;
    text-decoration: none;
    color: black;
  }
 .quiz_wrapper {
    color:#FFFFFF;
-  
+   margin-top: 167px;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quiz2 {
+   margin-left: 8%;
+  margin-right: 20%;
+  max-width: 32.6%;
+  max-height: 27%;
+}
+.arrow{
+   margin-left: 140px;
 }
 .nullone {
    font-size: 14px;
@@ -102,6 +121,8 @@ a.button {
    font-size: 28px;
    font-weight: 700;
    line-height: 32px;
+   margin-top: 0%;
+   margin-bottom: 50px;
 }
 .Begin
 {
@@ -116,15 +137,32 @@ a.button {
    font-size:53px;
    font-weight: 700;
    line-height: 62px;
+   margin-top: 1%;
+   margin-bottom: 0%;
+
 }
 .quiz_text2 {
    color:var(--color_text);
    font-size:21px;
    font-weight: 500;
    line-height: 33px;
+   margin-top: 2%;
+   margin-bottom: 5%;
 }
 .quiz {
-   background-color: #32686F;
+  box-shadow: 0 4px 4px;
+  border-radius: 10px;
+  width: 100%;
+  height:270px;
+
+
+  background-color: #32686f;
+  margin-top: 76px;
+  color: white;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
 .art_world_h2{
@@ -177,11 +215,29 @@ color:var(--links_color);
 .header{
    display: flex;
    align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;  
   
 }
+.Frame {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ 
+   justify-content: center;
+}
+.main {
+   margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .header_wrapper{
+   max-height: 6.25%;
+   max-width: 90,3%;
+   margin:1.75% 4.86%;
+}
+.page_container{
    margin: 0 auto;
   max-width: 2560px;
 }
@@ -190,10 +246,38 @@ font-weight: 700;
 font-size: 110px;
 text-align: center;
 line-height: 119px;
+margin-top: 1%;
+margin-bottom: auto;
 }
 .maintext {
    font-weight: 500;
    font-size: 21px;
    line-height: 33px;
    text-align: center;
+}
+.mainimg {
+   align-items: center;
+   text-align: center;
+   
+}
+.wrapper{
+   margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.box {
+   box-sizing: border-box;
+   margin-top: 20px;
+   background-color: #fffaf2;
+   box-shadow: #cac9c9 0 0 5px 0;
+   width: 490px;
+   height: 578px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 5px;
+   padding: 20px;
 }
