@@ -4,8 +4,61 @@
 :root{
    --color_text: #322F2E;
    --links_color: #333333;
-  
+   --selection: #c98363e3;
+   --hover:  #b3531c;
 }
+
+
+a::selection {
+   background-color: var(--selection);
+ }
+ body::selection {
+   background-color: var(--selection);
+ }
+ footer::selection {
+   background-color: var(--selection);
+ }
+ a::selection {
+   background-color: var(--selection);
+ }
+ div::selection {
+   background-color: var(--selection);
+ }
+ p::selection {
+   background-color: var(--selection);
+ }
+ h1::selection {
+   background-color: var(--selection);
+ }
+ h2::selection {
+   background-color: var(--selection);
+ }
+ h3::selection {
+   background-color: var(--selection);
+ }
+ h4::selection {
+   background-color: var(--selection);
+ }
+ h5::selection {
+   background-color: var(--selection);
+ }
+ img::selection {
+   background-color: var(--selection);
+ }
+ input::selection {
+   background-color: var(--selection);
+ }
+ br::selection {
+   background-color: var(--selection);
+ }
+ ul::selection {
+   background-color: var(--selection);
+ }
+ form::selection {
+   background-color: var(--selection);
+ }
+
+
 
 
 body{
@@ -24,6 +77,7 @@ body{
    line-height: 20px;
    
 }
+
    .nav > li {
       padding: 0 15px ;
    }
@@ -33,6 +87,35 @@ li > a{
    color: var(--links_color);
    padding: 10px;
 }
+li > a:hover {
+   color: var(--hover);
+   font-size: 1.3em;
+}
+
+.what_is_arcarta:hover{
+color:var(--hover);
+font-size: 1.3em;
+}
+.button:hover{
+   color:var(--hover);
+   font-size: 1.3em;
+}
+.box_button:hover{
+   color:var(--hover);
+font-size: 1.3em;
+}
+
+.Begin:hover{
+   color:var(--hover);
+font-size: 1.3em;
+}
+.footer_info > a:hover{
+   color:var(--hover);
+
+}
+input.email:focus {
+   outline: 0.3em solid blue;
+ }
 .get_start{
   
    border: 1px solid transparent; 
@@ -366,7 +449,7 @@ right: 5%;
     margin-top: 2.4%;
     margin-right: 9%;
     margin-left: 9%;
-    margin-bottom: 5.6%;
+    margin-bottom:0%;
     display: flex;
     flex-direction: row;
      justify-content: space-between;

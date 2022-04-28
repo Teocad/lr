@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>arcarta</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    
+    <body>
+        <div class = "page_contaner">
+        <header>
+            <div class="header_wrapper">
+                <div class="header">
+                    <a href=""><img src="img/logo.svg" alt="arcarta"></a>
+    
+    
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="">What is arcarta?</a></li>
+                            <li><a href="">Solutions</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="">FAQs</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="index.html">Arcarta</a></li>
+                            <li><a href="#" class="get_start">Get Started</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="main1">
+            <section>
+                <div class="major_inf">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <fieldset>
+                            <legend>Личная информация</legend>
+                            <label> Имя<span class="star"> *</span> <input type="text" name="text-field"
+                                    required>
+                                </label>
+                            <label>Дата рождения<span class="star"> *</span><input type="date" name="date"
+                                    required></label>
+                            <label>Пол
+                                <select name="Gender">
+
+                                    <option>Мужской</option>
+                                    <option>Женский</option>
+                                </select>
+                            </label>
+                            <label for="password">Пароль <span class="star"> *</span><input type="password"
+                                    name="password" id="password" placeholder="password" required></lable>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Контактная информация</legend>
+                            <label>E-Mail<span class="star"> *</span> <input type="email" name="email"
+                                    placeholder="example@mail.ru" required></label>
+                            <label>Номер телефона<span class="star">*</span><input type="tel" name="tel"
+                                    required></label>
+                            <label> Удобное время для связи <span class="star"> *</span>
+                                <input type="radio" name="radio" required> <span
+                                    class="radio_text">Утром</span></label>
+                            <label class="radio_day">
+                                <input type="radio" name="radio" required> <span
+                                    class="radio_text">Днем</span></label>
+                            <label class="radio_day">
+                                <input type="radio" name="radio" required> <span
+                                    class="radio_text">Вечером</span></label>
+                            <label class="radio_day">
+                                <input type="radio" name="radio" required><span class="radio_text"> Ночью</span></label>
+                        </fieldset>
+                        <button class="form_button" type="submit">Отправить <img src="img/arrow.png" alt=""
+                                width="15px"></button>
+                        <button class="form_button" type="reset" disabled >Очистить</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="psevdo_box">
+                <form name="class" method="POST" data-netlify="true">
+                    <dl>
+                        <dt class="first-letter">Псевдокласс</dt>
+                        <dd>Особый вид селектора, который уточняет тип или состояние. Обычно это какой-то качественный
+                            признак: реакция на наведение курсора, порядок следования и другие.</dd>
+                        <dt class="first-letter">Псевдоэлемент</dt>
+                        <dd>Элементы, которых не существует в HTML-разметке, но действуют так, как если бы вы добавили в
+                            разметку целый новый HTML-элемент. </br>
+                            Они создаются и позиционируются исключительно при помощи CSS. </br>
+Чаще всего используются для создания различных декоративных элементов (которые не несут содержательного смысла). </dd>
+                    </dl>
+                    <div class="checkbox_container">
+                        <div>
+                            <p> Псевдоклассы</p>
+                            <ul>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:root</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line"><span
+                                            class="check_text">:link</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line"><span
+                                            class="check_text">:visited</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:hover</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:active</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:focus</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:checked</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:disabled, :enabled</span></label>
+                                </li>
+
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:required</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:invalid, :valid</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">:nth-child</span></label>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p> Псевдоэлементы</p>
+                            <ul>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">::first-letter</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line"> <span
+                                            class="check_text">::first-line</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">::selection</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line"><span
+                                            class="check_text">::marker</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">::before</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">::after</span></label>
+                                </li>
+                                <li class="li_check">
+                                    <label class="check--label"><input type="checkbox" class="check_line" checked><span
+                                            class="check_text">::placeholder</span></label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <div class="push"></div>
+        </div>
+
+
+
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer">
+                <img src="img/logo.svg" alt="" width="40%">
+                <p class="footer_text">Our Customer Due Diligence platform helps you avoid fines or losing clients due
+                    to AML while protecting you from cybercrime.</p>
+                <h3 class="footer_h3">Approved Service Provider</h3>
+                <img src="img/bada.png" alt="" width="76px">
+
+                <h3 class="footer_h3_2">In Partnership with</h3>
+                <img src="img/london.svg" alt="" width="40%">
+                <p class="footer_text2">Registered with the Information Commissioner's Office (ICO) Registration number:
+                    ZA679248</p>
+                <p class="footer_text2">© Arc-Pay Ltd 2021</p>
+            </div>
+
+            <div class="footer_container">
+
+                <div class="footer_info">
+                    <a href="" class="footer_h4">
+                        <h4>Links</h4>
+                    </a>
+                    <a href="">Home</a> <br>
+                    <a href="">About us</a> <br>
+                    <a href="">Why arcarta</a> <br>
+                    <a href="">Success Stories</a> <br>
+                    <a href="">FAQ's</a> <br>
+                    <a href="">Contact Us</a> <br>
+                    <a href="">Join</a> <br>
+                    <a href="">Invite</a> <br>
+                    <a href="">Compliance Quiz</a> <br>
+                    <a href="">ID Document Quiz</a> <br>
+                </div>
+
+                <div class="footer_info">
+                    <a href="" class="footer_h4">
+                        <h4>Solutions</h4>
+                    </a>
+                    <a href="">For Galleries</a> <br>
+                    <a href="">For Advisors</a> <br>
+                    <a href="">For Auctioneers</a> <br>
+                    <a href="">For Secure Payments</a> <br>
+                    <a href="">For Buyers & Collectors</a> <br>
+                    <a href="">Online AML Training</a> <br>
+                </div>
+
+                <div class="footer_info">
+                    <a href="" class="footer_h4">
+                        <h4>Resources</h4>
+                    </a>
+                    <a href="">Articles</a> <br>
+                    <a href="">Resources</a> <br>
+                    <a href="">Help Centre</a> <br>
+                    <a href="">The Bigger Picture</a> <br>
+                    <a href="">Login</a> <br>
+                    <a href="">Brand Assets</a> <br/>
+                    <a href="">The Art Market Report</a>
+                    <img class="footer_new" src="img/new2.png" alt="" width=" 50px">
+                   
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer_logo">
+            <div>
+              <img src="img/people.png" alt="" width="161px">
+            </div>
+    
+            <div class="footer_cont2">
+              <p class="footer_text2">Privacy & Terms</p>
+            </div>
+            <div class="logos">
+                <a href=""><img src="img/twitter.svg" alt=""></a>
+                <a href=""><img src="img/instagram.svg" alt=""></a>
+                <a href=""><img src="img/youtube.svg" alt=""></a>
+            </div>
+          </div>
+
+    </footer>
+ </div> 
+</body>
+
+</html>
